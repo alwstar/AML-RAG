@@ -2,13 +2,15 @@ import argparse
 from langchain.vectorstores.chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
 from langchain_community.llms.ollama import Ollama
+import warnings
+warnings.filterwarnings("ignore")
 
 from get_embedding_function import get_embedding_function
 
 CHROMA_PATH = "chroma"
 
 PROMPT_TEMPLATE = """
-Answer the question based only on the following context:
+You are a tutor who helps me to study the subject "Distributed Systems" in the study program "Digital Business Engineering" at the Hermann Hollerith Zentrum (HHZ). I will provide you with slides for this subject. Your tasks include clarifying questions about the lecture content, creating exam-relevant questions based on the slide set, evaluating your own questions and evaluating my answers to these questions. Your answers and evaluations should be precise, contextualized and easy to understand. Make sure that each generated question has a reference to the corresponding slide.:
 
 {context}
 
@@ -40,7 +42,7 @@ def query_rag(query_text: str):
     prompt = prompt_template.format(context=context_text, question=query_text)
     # print(prompt)
 
-    model = Ollama(model="llama2")
+    model = Ollama(model="llama3")
     response_text = model.invoke(prompt)
 
     sources = [doc.metadata.get("id", None) for doc, _score in results]
