@@ -1,0 +1,6 @@
+Time to load FAISS index: 0.08 seconds
+Time for similarity search: 3.30 seconds
+Time to generate response: 20.98 seconds
+Response: The provided text does not contain any information regarding the definition of the Two Generals Problem, so I am unable to answer the question.
+Sources: ['data\\02 ds.pdf:4:2', 'data\\02 ds.pdf:4:2']
+Total execution time: 24.36 seconds
