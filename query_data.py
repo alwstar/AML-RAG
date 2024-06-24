@@ -91,7 +91,7 @@ def query_rag(query_text: str, temperature: float):
 
     # Generate response
     generate_start = time.time()
-    model = Ollama(model="gemma:2b", temperature=temperature)
+    model = Ollama(model="gemma", temperature=temperature)
     response_text = model.invoke(prompt)
     generate_end = time.time()
     print(f"Time to generate response: {generate_end - generate_start:.2f} seconds")
