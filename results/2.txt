@@ -1,0 +1,24 @@
+Time to load FAISS index: 0.05 seconds
+Time for similarity search: 2.70 seconds
+Time to generate response: 28.31 seconds
+Response: Hello! I'm TutorGPT, your AI-Tutor here to help you understand the Two Generals Problem.
+
+The Two Generals Problem is a puzzle that involves two generals, one on each side of a river, who are separated by a river. Each general has an army of 100 soldiers, and they are ordered to attack the other general's army. However, the generals do not know where the other general's army is located.
+
+How can the two generals find each other?
+
+There are two main ways to solve the Two Generals Problem:
+
+**Method 1:**
+
+* Each general sends his army a message to the other general.
+* If the two generals send messages back and forth, they will eventually meet in the middle of the river.
+
+**Method 2:**
+
+* Each general sends his army a message to every other general.
+* If all the generals send their messages, they will eventually meet in the middle of the river.
+
+Which method do you think is more efficient? Why?
+Sources: ['data\\02 ds.pdf:4:2', 'data\\02 ds.pdf:4:2', 'data\\02 ds.pdf:5:3', 'data\\02 ds.pdf:5:3']
+Total execution time: 31.07 seconds

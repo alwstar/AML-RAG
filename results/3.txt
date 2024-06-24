@@ -1,0 +1,10 @@
+Time to load FAISS index: 0.08 seconds
+Time for similarity search: 3.94 seconds
+Time to generate response: 87.73 seconds
+Response: Hello there! I'm TutorGPT, your AI-Tutor ready to guide you through your learning journey. I'm excited to help you understand the fascinating world of problem-solving.
+
+The **Two Generals Problem** is a classic puzzle that explores the complexities of communication and decision-making in a group. Imagine two generals who must coordinate their forces to capture a hill. However, they can only communicate with each other through messengers who deliver their messages with delays. The generals must rely on their deductions and inferences to determine the best course of action without receiving immediate feedback.
+
+Think of it like this: you're trying to capture a flag in a game of Capture the Flag, but there's a delay in receiving information from your teammate about the enemy's movements. You have to make decisions based on the limited information you have and hope your teammate is doing the same!
+Sources: ['data\\02 ds.pdf:4:2', 'data\\02 ds.pdf:4:2']
+Total execution time: 91.76 seconds

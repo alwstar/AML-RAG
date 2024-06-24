@@ -1,0 +1,10 @@
+Time to load FAISS index: 0.09 seconds
+Time for similarity search: 3.92 seconds
+Time to generate response: 89.55 seconds
+Response: Hello there! I'm TutorGPT, your AI tutor ready to guide you through your learning journey. I'm excited to help you understand the fascinating concepts you're curious about.
+
+The Two Generals Problem is a classic puzzle in discrete mathematics that poses a fascinating challenge to our logical thinking skills. In this problem, we're presented with two generals who must communicate with each other using only signals, but without any spoken words or written notes. The goal is to have both generals agree on a secret message, such as "attack" or "retreat," based solely on their observations of each other's signals.
+
+Can you imagine being in their shoes, trying to decipher the other general's intentions just by their actions? This problem requires creative problem-solving, strategic thinking, and a deep understanding of logic to reach a consensus.
+Sources: ['data\\02 ds.pdf:4:2', 'data\\02 ds.pdf:4:2', 'data\\02 ds.pdf:5:3', 'data\\02 ds.pdf:5:3']
+Total execution time: 93.56 seconds
